@@ -1,0 +1,360 @@
+
+@media screen and (min-width: 321px) and (max-width: 600px) { 
+.portada-sesion {
+    background-image: url('../Imagenes/Img-3.png');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+}
+
+.portada-sesion_2 {
+    /* grid-row-start: 1;
+    grid-row-end: 5; */
+    text-align: center;
+}
+
+.portada-sesion_2 img {
+    width: 80%;
+    height: 80%;
+}
+
+.portada-sesion_3 {
+    width: 90%;
+    text-align: left;
+}
+
+.recuperar {
+    color: gray;
+}
+
+input {
+    border-radius: 10px;
+    border: transparent;
+    width: 100%;
+}
+
+.mensaje {
+    color: white;
+    font-family: Helvetica;
+    font-size: small;
+}
+
+.button-2 {
+    background-image: url('../Imagenes/Fondo3.png');
+    background-color: transparent;
+    background-size: 100% 100%;
+    border: transparent;
+    width: auto;
+    font-style: normal;
+    color: white;
+    font-family: Helvetica;
+}
+
+
+.footer {
+    background: rgb(1, 49, 113);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+}
+
+.footer-1 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-1 img {
+    width: 60%;
+    height: auto;
+}
+
+.footer-2 {
+    width: 50%;
+}
+
+.footer-2 h3 {
+    color: white;
+    font-size: xx-small;
+    font-family: Helvetica;
+}
+
+.footer-2 p {
+    color: gray;
+    font-family: Helvetica;
+    font-size: xx-small;
+}
+
+.footer-3 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-3 img {
+    width: 60%;
+    height: auto;
+    
+}
+
+.Chat{
+    text-align: center;
+    position: fixed;
+    width: 10%;
+    height: 10%;
+    top: 80%;
+    left: 80%;
+    background-image: url('../Imagenes/Icono-4.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+    display:block;
+    border-radius: 50%;
+    border: transparent;
+}     
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) { 
+
+    .portada-sesion {
+        background-image: url('../Imagenes/Img-3.png');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        display: grid;
+    }
+    
+    .portada-sesion_2 {
+        text-align: center;
+    }
+    
+    .portada-sesion_2 img {
+        width: 80%;
+        height: 80%;
+    }
+    
+    .portada-sesion_3 {
+        width: 90%;
+        text-align: left;
+    }
+    
+    .recuperar {
+        color: gray;
+    }
+
+    input {
+        border-radius: 10px;
+        border: transparent;
+        width: 60%;
+    }
+    
+    .mensaje {
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+    }
+    
+    .button-2 {
+        background-image: url('../Imagenes/Fondo3.png');
+        background-color: transparent;
+        background-size: 100% 100%;
+        border: transparent;
+        width: auto;
+        font-style: normal;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    
+    .footer {
+        background: rgb(1, 49, 113);
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .footer-1 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-1 img {
+        width: 60%;
+        height: auto;
+    }
+    
+    .footer-2 {
+        width: 40%;
+    }
+    
+    .footer-2 h3 {
+        color: white;
+        font-size: small;
+        font-family: Helvetica;
+    }
+    
+    .footer-2 p {
+        color: gray;
+        font-family: Helvetica;
+        font-size: small;
+    }
+    
+    .footer-3 {
+        width: 30%;
+    }
+
+    .footer-3 img {
+        width: 70%;
+        height: auto;
+    }
+
+    .Chat{
+        text-align: center;
+        position: fixed;
+        width: 5%;
+        height: 10%;
+        top: 80%;
+        left: 80%;
+        background-image: url('../Imagenes/Icono-4.png');
+        background-size: 100% 100%;
+        background-color: transparent;
+        display:block;
+        border-radius: 50%;
+        border: transparent;
+    }
+
+}
+
+
+@media screen and (min-width: 1025px) {
+
+    .portada-sesion {
+        background-image: url('../Imagenes/Img-3.png');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        display: grid;
+    }
+    
+    .portada-sesion_2 {
+        text-align: center;
+    }
+    
+    .portada-sesion_2 img {
+        width: 70%;
+        height: 70%;
+    }
+    
+    .portada-sesion_3 {
+        width: 90%;
+        text-align: left;
+    }
+    
+    .recuperar {
+        color: gray;
+    }
+
+    input {
+        border-radius: 10px;
+        border: transparent;
+        width: 60%;
+    }
+    
+    .mensaje {
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+    }
+    
+    .button-2 {
+        background-image: url('../Imagenes/Fondo3.png');
+        background-color: transparent;
+        background-size: 100% 100%;
+        border: transparent;
+        width: auto;
+        font-style: normal;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    
+    .footer {
+        background: rgb(1, 49, 113);
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .footer-1 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-1 img {
+        width: 60%;
+        height: auto;
+    }
+    
+    .footer-2 {
+        width: 40%;
+    }
+    
+    .footer-2 h3 {
+        color: white;
+        font-size: small;
+        font-family: Helvetica;
+    }
+    
+    .footer-2 p {
+        color: gray;
+        font-family: Helvetica;
+        font-size: small;
+    }
+    
+    .footer-3 {
+        width: 30%;
+    }
+
+    .footer-3 img {
+        width: 60%;
+        height: auto;
+    }
+
+    .Chat{
+        text-align: center;
+        position: fixed;
+        width: 5%;
+        height: 10%;
+        top: 80%;
+        left: 80%;
+        background-image: url('../Imagenes/Icono-4.png');
+        background-size: 100% 100%;
+        background-color: transparent;
+        display:block;
+        border-radius: 50%;
+        border: transparent;
+    }   
+
+ }

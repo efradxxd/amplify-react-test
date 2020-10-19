@@ -1,0 +1,500 @@
+
+@media screen and (min-width: 321px) and (max-width: 600px) {
+    .portada-registro {
+        background-image: url('../Imagenes/Img-3.png');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        display: grid;
+    }
+    
+    .portada-registro_2 {
+        text-align: center;
+    }
+    
+    .portada-registro_2 img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .portada-registro_3 {
+        width: 90%;
+        text-align: left;
+    }
+    
+    input {
+        border-radius: 10px;
+        border: transparent;
+        width: 60%;
+    }
+
+    /* ::-webkit-input-placeholder {
+        font-size: xx-small;
+    } */
+    
+    .chico {
+        width: 45%;
+    }
+    
+    select {
+        border-radius: 10px;
+        border: transparent;
+        width: 45%;
+    }
+    
+    .button-2 {
+        background-image: url('../Imagenes/Fondo3.png');
+        background-color: transparent;
+        background-size: 100% 100%;
+        border: transparent;
+        width: auto;
+        font-style: normal;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    
+    .footer {
+        background: rgb(1, 49, 113);
+        width: 100%;
+        height: 25vh;
+        display: flex;
+    }
+    
+    .footer-1 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .footer-2 {
+        width: 30%;
+        margin-top: 5%;
+    }
+    
+    .footer-2 h3 {
+        color: white;
+        font-size: small;
+        font-family: Helvetica;
+    }
+    
+    .footer-2 p {
+        color: gray;
+        font-family: Helvetica;
+        font-size: small;
+    }
+    
+    .footer-3 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .Chat{
+        text-align: center;
+        position: fixed;
+        width: 10%;
+        height: 10%;
+        top: 80%;
+        left: 90%;
+        background-image: url('../Imagenes/Icono-4.png');
+        background-size: 100% 100%;
+        background-color: transparent;
+        display:block;
+        border-radius: 50%;
+        border: transparent;
+    }
+    
+    .mensaje {
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+    }
+
+    .agregar-mas {
+        display: flex;
+        width: 100%;
+    }
+    
+    .agregar-mas h6 {
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+    }
+
+    .agregar-mas img {
+        width: auto;
+        height: auto;
+    }
+
+    .agregar-mas-2 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .agregar-mas-3 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 5%;
+    }
+    
+    .mas{
+        text-align: center;
+        width: 250%;
+        height: 150%;
+        background-image: url('../Imagenes/Fondo7.png');
+        background-size: 100% 100%;
+        background-color: transparent;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 50%;
+        border: transparent;
+    }
+ }
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .portada-registro {
+        background-image: url('../Imagenes/Img-3.png');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        display: grid;
+    }
+    
+    .portada-registro_2 {
+        text-align: center;
+    }
+    
+    .portada-registro_2 img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .portada-registro_3 {
+        width: 90%;
+        text-align: left;
+    }
+    
+    input {
+        border-radius: 10px;
+        border: transparent;
+        width: 60%;
+    }
+    
+    .chico {
+        width: 45%;
+    }
+    
+    select {
+        border-radius: 10px;
+        border: transparent;
+        width: 45%;
+    }
+    
+    .button-2 {
+        background-image: url('../Imagenes/Fondo3.png');
+        background-color: transparent;
+        background-size: 100% 100%;
+        border: transparent;
+        width: auto;
+        font-style: normal;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    
+    .footer {
+        background: rgb(1, 49, 113);
+        width: 100%;
+        height: 300px;
+        display: flex;
+    }
+    
+    .footer-1 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .footer-2 {
+        width: 30%;
+        margin-top: 5%;
+    }
+    
+    .footer-2 h3 {
+        color: white;
+        font-size: small;
+        font-family: Helvetica;
+    }
+    
+    .footer-2 p {
+        color: gray;
+        font-family: Helvetica;
+        font-size: small;
+    }
+    
+    .footer-3 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .Chat{
+        text-align: center;
+        position: fixed;
+        width: 10%;
+        height: 10%;
+        top: 80%;
+        left: 90%;
+        background-image: url('../Imagenes/Icono-4.png');
+        background-size: 100% 100%;
+        background-color: transparent;
+        display:block;
+        border-radius: 50%;
+        border: transparent;
+    }
+    
+    .mensaje {
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+    }
+
+    .agregar-mas {
+        display: flex;
+        width: 100%;
+    }
+    
+    .agregar-mas h6 {
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+    }
+
+    .agregar-mas img {
+        width: auto;
+        height: auto;
+    }
+
+    .agregar-mas-2 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .agregar-mas-3 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 5%;
+    }
+    
+    .mas{
+        text-align: center;
+        width: 250%;
+        height: 150%;
+        background-image: url('../Imagenes/Fondo7.png');
+        background-size: 100% 100%;
+        background-color: transparent;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 50%;
+        border: transparent;
+    } 
+    
+ }
+
+
+
+@media screen and (min-width: 1025px) { 
+    .portada-registro {
+        background-image: url('../Imagenes/Img-3.png');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        display: grid;
+    }
+    
+    .portada-registro_2 {
+        text-align: center;
+    }
+    
+    .portada-registro_2 img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .portada-registro_3 {
+        width: 90%;
+        text-align: left;
+    }
+    
+    input {
+        border-radius: 10px;
+        border: transparent;
+        width: 60%;
+    }
+    
+    .chico {
+        width: 45%;
+    }
+    
+    select {
+        border-radius: 10px;
+        border: transparent;
+        width: 45%;
+    }
+    
+    .button-2 {
+        background-image: url('../Imagenes/Fondo3.png');
+        background-color: transparent;
+        background-size: 100% 100%;
+        border: transparent;
+        width: auto;
+        font-style: normal;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    
+    .footer {
+        background: rgb(1, 49, 113);
+        width: 100%;
+        height: 300px;
+        display: flex;
+    }
+    
+    .footer-1 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .footer-2 {
+        width: 30%;
+        margin-top: 5%;
+    }
+    
+    .footer-2 h3 {
+        color: white;
+        font-size: small;
+        font-family: Helvetica;
+    }
+    
+    .footer-2 p {
+        color: gray;
+        font-family: Helvetica;
+        font-size: small;
+    }
+    
+    .footer-3 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .Chat{
+        text-align: center;
+        position: fixed;
+        width: 10%;
+        height: 10%;
+        top: 80%;
+        left: 90%;
+        background-image: url('../Imagenes/Icono-4.png');
+        background-size: 100% 100%;
+        background-color: transparent;
+        display:block;
+        border-radius: 50%;
+        border: transparent;
+    }
+    
+    .mensaje {
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+    }
+
+    .agregar-mas {
+        display: flex;
+        width: 100%;
+    }
+    
+    .agregar-mas h6 {
+        color: white;
+        font-family: Helvetica;
+        font-size: medium;
+    }
+
+    .agregar-mas img {
+        width: auto;
+        height: auto;
+    }
+
+    .agregar-mas-2 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .agregar-mas-3 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 5%;
+    }
+    
+    .mas{
+        text-align: center;
+        width: 300%;
+        height: 150%;
+        background-image: url('../Imagenes/Fondo7.png');
+        background-size: 100% 100%;
+        background-color: transparent;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 50%;
+        border: transparent;
+    } 
+    
+}
